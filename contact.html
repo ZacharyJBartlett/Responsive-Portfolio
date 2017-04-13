@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    
+
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Zac Bartlett</a>
@@ -24,7 +24,7 @@
     <div id="main-container" class="container">
         <section class="main-container">
             <h1>Contact</h1>
-            <form id="contact-form">
+            <form action="mailto:zachary.jamesbartlett@gmail.com" method="post" enctype="text/plain" id="contact-form">
                 <ul>
                     <li>
                         <label for="name">Name</label>
@@ -39,7 +39,8 @@
                         <textarea id="message" name="message" required="required"></textarea>
                     </li>
                 </ul>
-                <input type="submit" name="submit">
+                <input type="submit" value="send" name="submit">
+                <input="reset" type="reset">
             </form>
         </section>
         <section class="sidebar">
